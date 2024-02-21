@@ -52,7 +52,7 @@ body *{
 }
 
 #profile img{
-width: 112px;
+width: 120px;
 }
 
 #profile p{
@@ -117,10 +117,12 @@ ul{
 
 ul li a{
   display: flex;
-  padding: 16px 24px;
   align-items: center;
   justify-content: center;
-  background-color: var(--surface-color);
+
+  padding: 16px 24px;
+
+  background: var(--surface-color);
   border: 1px solid var(--stroke-color);
   border-radius: 8px;
 
@@ -135,7 +137,7 @@ ul li a{
 
 ul li a:hover{
   background-color: var(--surface-color-hover);
-  border: 1.5px solid rgba(255, 255, 255, var(--text-color));
+  border: 1.5px solid var(--text-color);
 }
 
 #social-links{
